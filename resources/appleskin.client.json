@@ -2,7 +2,7 @@
   "required": true,
   "package": "squeek.appleskin.mixin",
   "compatibilityLevel": "JAVA_8",
-  "mixins": [
+  "client": [
     "GuiMixin",
     "InGameHudMixin",
     "MinecraftClientMixin"
