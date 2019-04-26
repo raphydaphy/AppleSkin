@@ -10,7 +10,6 @@ public class AppleSkin implements ClientModInitializer
 	@Override
 	public void onInitializeClient()
 	{
-		System.out.println("class loader class name " + getClass().getClassLoader().getClass().getName());
 		SyncHandler.init();
 	}
 }

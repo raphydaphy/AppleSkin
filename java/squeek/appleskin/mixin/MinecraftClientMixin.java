@@ -12,11 +12,6 @@ import squeek.appleskin.network.SyncHandler;
 @Mixin(MinecraftClient.class)
 public class MinecraftClientMixin
 {
-	@Inject(at = @At("RETURN"), method="init")
-	private void init(CallbackInfo info) {
-		//SyncHandler.init();
-	}
-
 	@Inject(at = @At("HEAD"), method = "tick")
 	void onTick(CallbackInfo info)
 	{
